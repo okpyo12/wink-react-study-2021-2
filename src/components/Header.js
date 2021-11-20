@@ -8,7 +8,7 @@ const Header = () => {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 35px;
 `
     return (
