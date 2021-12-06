@@ -3,11 +3,11 @@ import styled from "styled-components";
 import * as lib from "./library.js";
 import "../css/DragDrop.css";
 
-const DragDrop = () => {
+const FileUpload = () => {
   const [dropFlag, setDropFlag] = useState(false);
 
   const Container = styled.div`
-    display:flex;
+    display: flex;
     justify-content: flex-start;
 `
   const Dropbox = styled.div`
@@ -23,10 +23,10 @@ const DragDrop = () => {
       onDragLeave={(e) => lib.handleOnDragLeave(e, setDropFlag)}
     >
       <p>drag & drop</p>
-      <input type="file" accept=".csv"/>
+      <input type="file" accept=".csv" onChange={(e) => lib.handleUpload(e)}/>
       </Dropbox>
     </Container>
   );
 };
 
-export default DragDrop;
+export default FileUpload;

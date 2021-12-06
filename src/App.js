@@ -1,6 +1,6 @@
 import React from "react";
 //import * as lib from "./components/library";
-import DragDrop from "./components/DragDrop";
+import FileUpload from "./components/FileUpload";
 import Header from "./components/Header";
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
     <div>
       <div className="App">
         <Header />
-        <DragDrop />
+        <FileUpload />
       </div>
     </div>
   );
