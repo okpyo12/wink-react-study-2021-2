@@ -1,13 +1,12 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-//import * as lib from "./components/library";
 import {FileUploadPage} from "./components/FileUploadPage";
-import {AnalysisPage} from "./components/AnalysisPage";
+import {ResultPage} from "./components/ResultPage";
 
 const App = () => {
   return (
     <Router>
         <Route exact path='/' component={FileUploadPage}/>
-        <Route exact path='/analysis' component={AnalysisPage}/>
+        <Route exact path='/result' component={ResultPage}/>
     </Router>
   );
 };
