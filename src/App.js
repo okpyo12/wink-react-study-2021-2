@@ -1,16 +1,13 @@
-import React from "react";
-//import * as lib from "./components/library";
-import FileUpload from "./components/FileUpload";
-import Header from "./components/Header";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {FileUploadPage} from "./components/FileUploadPage";
+import {ResultPage} from "./components/ResultPage";
 
 const App = () => {
   return (
-    <div>
-      <div className="App">
-        <Header />
-        <FileUpload />
-      </div>
-    </div>
+    <Router>
+        <Route exact path='/' component={FileUploadPage}/>
+        <Route exact path='/result' component={ResultPage}/>
+    </Router>
   );
 };
 
