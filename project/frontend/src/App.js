@@ -21,7 +21,7 @@ const App = () => {
   };
 
   return (
-    <Flex w="1000px" h="1000px" alignItems="center" justifyContent="center">
+    <Flex w="100" h="1000px" alignItems="center" justifyContent="center">
       {data && <div><div dangerouslySetInnerHTML={{__html: data.data.data}} /></div>   // data가 있으면 그걸 보여준다 
       }    
       {!!!data && <FileUpload onFileAccepted={onFileAccepted} />   //data가 없으면 파일업로드 페이지 보여준다
