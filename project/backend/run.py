@@ -44,17 +44,10 @@ df["User"] = df["User"].fillna("(알 수 없음)")
 # # --------분석-
 
 
-<<<<<<< HEAD
 # #연도별 메시지 개수
 # df.groupby("year")["Message"].count().plot(kind="pie",
 #                                           title="연도별 메시지 수",
 #                                           autopct='%.2f%%')  #그래프
-=======
-#연도별 메시지 개수
-df.groupby("year")["Message"].count().plot(kind="pie",
-                                          title="연도별 메시지 수",
-                                          autopct='%.2f%%')  #그래프
->>>>>>> e4de72402a38b65c26348d5ab70d0eaccbaac738
 print("<연도별 메시지 개수><br />")
 print(df.groupby("year")["Message"].count().to_string() + "<br />")  # 텍스트
 print("-------------------------------------------<br /><br />")
