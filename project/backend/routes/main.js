@@ -36,4 +36,8 @@ router.post("/upload", uploadWithOriginalFilename.single("file"), function (req,
   // res.json({ file: req.file });
 });
 
+<<<<<<< HEAD
 module.exports = router;
+=======
+module.exports = router;
+>>>>>>> e4de72402a38b65c26348d5ab70d0eaccbaac738
