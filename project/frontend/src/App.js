@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <div className="headertop">kakaotalk</div>
+      <div className="headertop">.</div>
       <div className="header">
         카카오톡 내용 분석기
       </div>
