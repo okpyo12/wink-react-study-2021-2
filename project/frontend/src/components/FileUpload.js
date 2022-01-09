@@ -19,7 +19,7 @@ export default function Dropzone({ onFileAccepted }) {
 
   const dropText = isDragActive
     ? "Drop the files here ..."
-    : "Drag 'n' drop file here, or click to select files";
+    : "Drag & drop file here, or click to select files";
 
   const activeBg = useColorModeValue("gray.100", "gray.600");
   const borderColor = useColorModeValue(
