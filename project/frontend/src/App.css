@@ -3,35 +3,58 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #7873a5;
 }
 
 .headertop{
-    color: #7873a5;
     font-size: 50px;
 }
 
 .header{
     display: flex;
-    width: 400px;
+    width: 100%;
     height: 70px;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    /* background-color: yellow; */
     margin: auto;
     border-radius: 0.5em;
-    font-size: 40px;
+    font-size: 100px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: 800;
 }
 
 .explanation{
-    width: 500px;
+    width: 100%;
     height: 100px;
     justify-content: center;
     align-items: center;
     text-align:center;
     margin: auto;
-    font-size: 30px;
-    color: rgb(95, 43, 67);
+    font-size: 20px;
+    font-weight: 300;
+    /* color: rgb(194, 192, 101); */
+}
+
+.howtouse{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.howtouse-guideline{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 200;
 }
 
 .kakaoimg{
